@@ -428,3 +428,56 @@ tbody tr:last-child>* {
 .bloque p {
     margin-top: 12px
 }
+/* equipo TSP */
+.subtitulo {
+    font-size: 21px;
+    margin: 35px 0 17px
+}
+
+.objetivos,
+.ciclo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px
+}
+
+.objetivos h4 {
+    color: #277fae;
+    font-size: 17px;
+    margin-bottom: 8px
+}
+
+.ciclo strong {
+    color: #318dca;
+    display: block;
+    margin-bottom: 8px
+}
+
+.roles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px
+}
+
+.rol {
+    border: 1px solid #dbe7ed;
+    border-radius: 8px;
+    padding: 18px;
+    background: #f7fafc
+}
+
+.rol h4 {
+    color: #277fae;
+    font-size: 16px;
+    margin-bottom: 9px
+}
+
+.rol p {
+    font-size: 14px
+}
+
+.nota {
+    font-size: 13px;
+    margin-top: 18px;
+    color: #758690
+}
