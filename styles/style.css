@@ -160,3 +160,27 @@ li {
     filter: brightness(1.07);
     text-decoration: none
 }
+/* conceptos */
+.barra {
+    background: linear-gradient(#fff, #e8eef1);
+    border-bottom: 1px solid #d9e0e4
+}
+
+.conceptos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 21px 0
+}
+
+.conceptos span {
+    color: #258bd0;
+    font-weight: bold
+}
+
+.conceptos strong {
+    color: #536774;
+    margin-left: 8px;
+    font-weight: normal
+}
