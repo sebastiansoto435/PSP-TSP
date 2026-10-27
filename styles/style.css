@@ -236,8 +236,7 @@ li {
     place-items: center
 }
 
-.creador span,
-.creador small {
+.creador span,.creador small {
     display: block;
     color: #84949e
 }
@@ -319,8 +318,7 @@ table {
     width: 100%
 }
 
-th,
-td {
+th,td {
     text-align: left;
     padding: 14px 18px;
     border-bottom: 1px solid #e3ebef
@@ -519,4 +517,102 @@ tbody tr:last-child>* {
 
 .publico p {
     font-size: 14px
+}
+/* footer */
+footer {
+    background: #435764;
+    color: #e0eaf0;
+    padding: 22px 0
+}
+
+.pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px
+}
+
+.pie a {
+    color: white
+}
+
+/* HASTA 480px */
+
+@media (max-width: 480px){
+
+    /* header */
+
+    .logo img{
+        width: 110px;
+        height: auto;
+    }
+
+    .menu{
+        gap: 3px;
+    }
+
+    .menu a{
+        font-size: 11px;
+        padding: 5px 7px;
+    }
+    .portada{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .presentacion{
+        padding: 20px 0px;
+    }
+
+    .presentacion h1{
+        font-size: 28px;
+    }
+
+    .presentacion p{
+        font-size: 13px;
+    }
+
+    .celular{
+        height: 215px;
+        min-height: 215px;
+    }
+
+    .celular img{
+        width: 220px;
+    }
+
+    /* contenido */
+
+    .seccion{
+        padding: 40px 0px;
+    }
+
+    .seccion h2{
+        font-size: 24px;
+    }
+
+    .tarjetas,.niveles,.objetivos,.ciclo,.doble,.roles,.modelos,.publico,.pasos{
+        grid-template-columns: 1fr;
+    }
+
+    .tarjeta{
+        padding: 20px;
+    }
+
+    .nivel,.bloque,.pasos article,.publico article{
+        padding: 18px;
+    }
+
+    .titulo{
+        margin-bottom: 25px;
+    }
+
+    /* footer */
+
+    .pie{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
 }
