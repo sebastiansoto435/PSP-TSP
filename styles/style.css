@@ -369,3 +369,32 @@ tbody tr:last-child>* {
     border-top: 1px solid #e5edf1;
     margin-top: 6px
 }
+/* niveles PSP */
+.niveles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px
+}
+
+.nivel,.bloque,.objetivos article,.ciclo article,.modelos article {
+    padding: 23px;
+    border: 1px solid #dfeaf0;
+    border-radius: 10px;
+    background: #f7fafc
+}
+
+.nivel span {
+    display: inline-block;
+    color: #218bd0;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 12px
+}
+
+.nivel h3 {
+    margin-bottom: 10px
+}
+
+.nivel p,.bloque p,.objetivos p,.ciclo p,.modelos p {
+    font-size: 14px
+}
