@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #415461;
+    background: #fff;
+    line-height: 1.65
+}
+a {
+    color: #188ad0;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto
+}
+
+/* header */
+header {
+    background: radial-gradient(ellipse at 55% 65%, #5c7180, #405260 80%);
+    color: #fff;
+    overflow: hidden
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    min-height: 95px
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap
+}
+
+.logo img {
+    width: 137px;
+    height: 41px;
+    object-fit: contain
+}
+
+.logo span {
+    font-size: 13px;
+    color: #b9d6e6;
+    letter-spacing: 1px
+}
+
+li {
+    list-style: none
+}
+
+.menu {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.menu a {
+    display: block;
+    color: #f1f5f7;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 13px
+}
+
+.menu a:hover {
+    background: #304451;
+    text-decoration: none
+}
+
+.portada {
+    display: flex;
+    align-items: center;
+    gap: 45px
+}
+
+.celular {
+    flex: 0 0 40%;
+    min-height: 350px;
+    align-self: stretch;
+    position: relative;
+    overflow: hidden;
+    text-align: center
+}
+
+.celular img {
+    width: 330px;
+    max-width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.presentacion {
+    flex: 1;
+    padding: 8px 0 38px
+}
+
+.etiqueta {
+    color: #42a6e5;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 11px
+}
+
+.presentacion h1 {
+    font-size: 46px;
+    line-height: 1.15;
+    margin-bottom: 19px;
+    letter-spacing: -1px
+}
+
+.presentacion p {
+    color: #c4d0d8;
+    margin-bottom: 15px
+}
+
+.presentacion .destacado {
+    color: #fff;
+    font-size: 17px
+}
+
+.boton {
+    display: inline-block;
+    background: linear-gradient(#57bbf5, #2183ca);
+    color: white;
+    border: 1px solid #2388ca;
+    box-shadow: 0 2px 5px #0002;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.boton {
+    padding: 11px 24px;
+    border-radius: 24px;
+    margin-top: 15px
+}
+
+.boton:hover {
+    filter: brightness(1.07);
+    text-decoration: none
+}
