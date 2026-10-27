@@ -481,3 +481,42 @@ tbody tr:last-child>* {
     margin-top: 18px;
     color: #758690
 }
+/* modelos */
+.modelos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 17px
+}
+
+.modelos span {
+    font-size: 12px;
+    color: #2e97d9;
+    font-weight: bold
+}
+
+.modelos h3 {
+    margin: 5px 0 10px
+}
+/* perfil de participantes */
+.publico {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px
+}
+
+.publico article {
+    padding: 22px;
+    background: #f7fafc;
+    border: 1px solid #dfeaf0;
+    border-radius: 10px
+}
+
+.publico h3 {
+    font-size: 17px;
+    margin-bottom: 9px;
+    color: #357b9f
+}
+
+.publico p {
+    font-size: 14px
+}
